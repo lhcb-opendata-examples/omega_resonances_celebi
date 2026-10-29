@@ -3,8 +3,8 @@
 Celebi project for the search for excited Omega_c0 states in
 Omega_c0 -> (Xi_c+ -> p K- pi+) K- decays using LHCb Open Data.
 
-Migrated from the Snakemake project `omegac_resonances_snakemake`
-(see `../omegac_resonances_snakemake`).
+Migrated from the Snakemake project
+[https://github.com/lhcb-opendata-examples/omegac_resonances](https://github.com/lhcb-opendata-examples/omegac_resonances).
 
 ## Structure
 
