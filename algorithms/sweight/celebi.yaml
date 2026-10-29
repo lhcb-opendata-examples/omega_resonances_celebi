@@ -1,0 +1,8 @@
+descriptor: sweight
+environment: script
+memory_limit: 4Gi
+commands:
+  - export MPLCONFIGDIR=`pwd`/matplotlib
+  - export NUMBA_CACHE_DIR=`pwd`/numba_cache
+  - mkdir -p "$MPLCONFIGDIR" "$NUMBA_CACHE_DIR"
+  - python3 code/sweight.py "skimdata/stageout" --max-files ${max_files} --output-root stageout/omegac2xicK.root --plot-output-dir stageout/sweight

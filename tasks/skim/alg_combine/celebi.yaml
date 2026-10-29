@@ -1,0 +1,4 @@
+descriptor: alg_combine
+environment: script
+commands:
+  - source code/combine.sh

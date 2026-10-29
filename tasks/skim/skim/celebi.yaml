@@ -1,0 +1,7 @@
+alias:
+- skim0
+- skim1
+- skim2
+descriptor: skim
+environment: celebichrono/root-xrootd:6.32.02
+memory_limit: 256Mi

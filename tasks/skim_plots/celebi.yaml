@@ -1,0 +1,7 @@
+descriptor: skim_plots
+environment: celebichrono/lhcb-omegac:v0.4
+alias:
+- skimdata
+memory_limit: 4Gi
+parameters:
+  max_files: '0'

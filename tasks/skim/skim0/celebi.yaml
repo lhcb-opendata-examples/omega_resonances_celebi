@@ -1,0 +1,7 @@
+descriptor: skim
+environment: celebichrono/root-xrootd:6.32.02
+memory_limit: 4Gi
+parameters:
+  start_file: '0'
+  max_files: '20'
+  raw_source: root://eospublic.cern.ch//eos/opendata/lhcb/CollisionNtuples/OPENDATA.LHCB.MHK4.OQO3/outputs/real-production/

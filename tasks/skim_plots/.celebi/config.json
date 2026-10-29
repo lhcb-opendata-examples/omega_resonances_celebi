@@ -1,0 +1,1 @@
+{"object_type": "task", "predecessors": ["algorithms/skim_plots", "tasks/skim/skim"], "path_to_alias": {"tasks/skim/skim": "skimdata"}, "alias_to_path": {"skimdata": "tasks/skim/skim"}}

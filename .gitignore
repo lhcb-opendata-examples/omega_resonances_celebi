@@ -1,0 +1,24 @@
+# Celebi local state and generated data
+**/.celebi/config.local.json
+**/.celebi/hosts.json
+**/.celebi/bookkeeping.local.json
+.celebi-env/config.local.json
+.celebi-env/hosts.json
+.celebi-env/bookkeeping.local.json
+.celebi/git_config.json
+**/.celebi/impressions
+**/.celebi/impressions_store
+**/.celebi/cache
+**/.celebi/immutable-impress*
+.celebi-workspace
+.celebi-workaround
+stageout
+
+# Local credentials and machine files
+.env
+.env.*
+.DS_Store
+
+# Python-generated files
+*.pyc
+__pycache__/

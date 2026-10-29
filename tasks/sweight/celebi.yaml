@@ -1,0 +1,7 @@
+alias:
+- skimdata
+descriptor: sweight
+environment: celebichrono/lhcb-omegac:v0.4
+memory_limit: 4Gi
+parameters:
+  max_files: '0'

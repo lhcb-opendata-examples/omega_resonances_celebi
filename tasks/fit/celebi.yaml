@@ -1,0 +1,7 @@
+alias:
+- sweightdata
+descriptor: fit
+environment: celebichrono/lhcb-omegac:v0.4
+memory_limit: 4Gi
+parameters:
+  weighted_file: stageout/omegac2xicK.root

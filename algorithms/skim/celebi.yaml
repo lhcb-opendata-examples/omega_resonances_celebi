@@ -1,0 +1,8 @@
+descriptor: skim
+environment: script
+memory_limit: 4Gi
+parameters:
+  raw_source: "root://eospublic.cern.ch//eos/opendata/lhcb/CollisionNtuples/OPENDATA.LHCB.MHK4.OQO3/outputs/real-production/"
+  max_files: "0"
+commands:
+  - python3 code/skim.py "${raw_source}" --start-file ${start_file} --max-files ${max_files} --output-dir stageout

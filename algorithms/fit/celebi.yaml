@@ -1,0 +1,7 @@
+descriptor: fit
+environment: script
+commands:
+  - export MPLCONFIGDIR=`pwd`/matplotlib
+  - export NUMBA_CACHE_DIR=`pwd`/numba_cache
+  - mkdir -p "$MPLCONFIGDIR" "$NUMBA_CACHE_DIR"
+  - python3 code/fit.py "sweightdata/${weighted_file}" --results-json stageout/omega_fit.json --plot-output-file stageout/omega_fit.png --fit-log-file stageout/omega_fit.minuit.log

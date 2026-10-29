@@ -1,0 +1,5 @@
+descriptor: skim_plots
+environment: script
+memory_limit: 2Gi
+commands:
+  - python3 code/skim_plots.py "skimdata/stageout" --max-files ${max_files} --plot-output-dir stageout

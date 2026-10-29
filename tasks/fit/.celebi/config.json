@@ -1,0 +1,1 @@
+{"object_type": "task", "predecessors": ["algorithms/fit", "tasks/sweight"], "path_to_alias": {"tasks/sweight": "sweightdata"}, "alias_to_path": {"sweightdata": "tasks/sweight"}}
